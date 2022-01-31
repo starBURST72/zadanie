@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { store } from "./actions/store";
+import { store } from "./store";
 import { Provider } from "react-redux";
 import { Container } from "@material-ui/core";
 import { ToastProvider } from "react-toast-notifications";
