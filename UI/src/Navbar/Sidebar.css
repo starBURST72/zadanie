@@ -1,0 +1,37 @@
+.sidebar {
+    color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+     
+}
+.sidebar__link {
+    text-decoration: none;
+    list-style: none;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.sidebar__link:hover {
+    transform: scale(1.0);
+}
+.sidebar__cancel {
+    padding-top: 40px;
+    padding-right: 30px;
+    font-size: 30px;
+    cursor: pointer;
+}
+#show-sidebar {
+    transform: translateX(10vw);
+    transition: .5s;
+}
+#hide-sidebar {
+    transform: translateX(100vw);
+    transition: .2s;
+}
